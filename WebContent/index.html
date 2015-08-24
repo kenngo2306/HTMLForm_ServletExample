@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="ProcessForm" method ="POST">
+		<label for="name">Name:</label>
+		<input type="text" name="name"/>
+		<br>
+		Address:
+		<textarea rows="3" cols="50" name="address"></textarea>
+		<br>
+		Status:
+		<select name="status">
+			<option value="single">Single</option>
+			<option value="married">Married</option>
+			<option value="divorced">Divorced</option>
+			<option value="other">Other</option>
+		</select>
+		<br>
+		Favorite Color:
+		<select name="color">
+			<optgroup label="Warm">
+				<option value="red">Red</option>
+				<option value="orange">Orange</option>
+				<option value="yellow">Yellow</option>
+			</optgroup>
+			
+			<optgroup label="Cold">
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+				<option value="purple">Purple</option>
+			</optgroup>
+		<br>	
+			<input type ="submit" value="submit" name="submit"/>
+		</select>
+	</form>
+</body>
+</html>
